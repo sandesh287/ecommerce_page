@@ -27,11 +27,11 @@
                 <div class="navbar">
                   
                     <div class="logo">
-                        <a href="website.html"><img src="images/logo.jpg" width="125px"></a>
+                        <a href="index.html"><img src="images/logo.jpg" width="125px"></a>
                     </div>
                     <nav>
                         <ul>
-                            <li><a href="website.html">Home</a></li>
+                            <li><a href="index.html">Home</a></li>
                             <li><a href="products.html">Product</a></li>
                             <li><a href="about.html">About</a></li>
                             <li><a href="contactform.html">Contact Us</a></li>
