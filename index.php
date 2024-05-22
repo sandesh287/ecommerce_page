@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+        <title>SueMe</title>
+        <link rel="stylesheet" href="website.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;1,100;1,300&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/b498c53a4a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <!-- headings -->
+        <header class="section-navbar">
+            <section class="top_txt">
+                <div class="head container">
+                    <div class="head_txt">
+                        <p>Free shipping, 30-day return or refund guarantee</p>
+                    </div>
+                </div>
+               
+            </section>   
+        </header>
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                  
+                    <div class="logo">
+                        <a href="website.html"><img src="images/logo.jpg" width="125px"></a>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="website.html">Home</a></li>
+                            <li><a href="products.html">Product</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contactform.html">Contact Us</a></li>
+                            <li><a href="account.php">Account</a></li>
+                            <li><a href="cart.html">Cart</a></li>
+                            <li class="nav-item">
+                                <a href="cart.html" class="nav-link add-to-cart-button" id="cartValue"></a>
+                                <i class="fa-solid fa-cart-shopping"> 0</i>
+                            </li>
+                        </ul>
+                    </nav>
+        
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <h1>The Finest Feet, The Finest Shoes</h1>  
+                        <p>Don't ever let your head down, unless it's to admire your shoes</p>
+                        <a href="" class="btn">Explore Now &#8594;</a>
+                    </div>
+                    <div class="col-2">
+                        <img src="images/logo2.jpg" width="500px" >
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- viewing products -->
+        <div class="categories">
+            <div class="small-container"> 
+                <div class="row">
+                    <div class="col-3">
+                        <img src="images/shoes1.jpg" width="500">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/shoes2.jpg"  width="500">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/shoes3.jpg"  width="500">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- featured products -->
+        <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <a href="productdetail.html"><img src="images/product1.jpg" width="250" height="300"></a>
+                    <h4>Zara Block Heel</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>NPR:4500</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product2.jpg" width="250" height="300">
+                    <h4>YSL Heel</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <p>NPR:7000</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product3.jpg" width="250" height="300">
+                    <h4>Ravore sneakers</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>NPR:6500</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product4.jpg" width="250" height="300">
+                    <h4>Printed Converse</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>NPR:2500</p>
+                </div>
+            </div>
+
+            <!-- latest products -->
+            <h2 class="title">Latest Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/products5.jpg" width="250" height="300">
+                    <h4>Brown Jordan sneakers</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>NPR:9000</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/products6.jpg" width="250" height="300">
+                    <h4>Brown Converse</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <p>NPR:7000</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/products7.jpg" width="250" height="300">
+                    <h4>La Alr Jordan 1 Low Aluminium</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>NPR:6500</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/products8.jpg" width="250" height="300">
+                    <h4>Reebook White sneakers</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>NPR:8000</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/products9.jpg" width="250" height="300">
+                    <h4>Saint Laurent Heels</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>NPR:10,500</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/products10.png" width="250" height="300">
+                    <h4>Loafers</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <p>NPR:7000</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/products11.jpg" width="250" height="300">
+                    <h4>Jimmy choo Pink Heels</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>NPR:20,000</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/products13.jpg" width="250" height="300">
+                    <h4>White Heart Boots</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>NPR:8000</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- advertisement -->
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/offer1.jpg" class="offer-img">
+                    </div>
+                    <div class="col-2">
+                        <p>Exclusively Available on SueMe</p>  
+                        <h1>Anne White</h1>         
+                        <small>The Anne White is available in 6 sizes with 7 different colors.</small>   
+                        <a href="" class="btn">Buy Now &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- user's comments -->
+        <div class="testimonial">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Theyre so comfortable to walk in and the wraps feels like theyre holding on to my legs as I walk. </p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>  
+                        </div>
+                        <img src="images/taylor.jpg">
+                        <h3>Taylor Swift</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Love this shoe, comfortable, can walk in these all day </p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>  
+                        </div>
+                        <img src="images/review.jpg">
+                        <h3>Barbie</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>I love these shoes Very comfortable and a real classic I ordered a wad and everything fits great thanks SueMe</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>  
+                        </div>
+                        <img src="images/review1.jpg">
+                        <h3>Dua Lipa</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- brand logos -->
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/Nike.png" width="100">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/jimmy.png" width="100">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/jordan.png" width="100">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/supreme.png" width="100">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/zara.png" width="100">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="container-footer">
+                <div class="row">
+                    
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logo.jpg" width="180" height="150">
+                    
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                
+            </div>
+        </div>
+
+    </body>
+</html>
+
