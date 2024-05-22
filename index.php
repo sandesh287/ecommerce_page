@@ -35,7 +35,7 @@
                             <li><a href="products.html">Product</a></li>
                             <li><a href="about.html">About</a></li>
                             <li><a href="contactform.html">Contact Us</a></li>
-                            <li><a href="account.php">Account</a></li>
+                            <li><a href="account.html">Account</a></li>
                             <li><a href="cart.html">Cart</a></li>
                             <li class="nav-item">
                                 <a href="cart.html" class="nav-link add-to-cart-button" id="cartValue"></a>
